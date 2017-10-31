@@ -3,7 +3,7 @@ let userName = '';
 userName ? console.log(`Hello ${userName}!`) : console.log('Hello');
 
 let userQuestion = 'Will I be independently wealthy?';
-let randomNumber = Math.floor(Math.random()*7);
+let randomNumber = Math.floor(Math.random()*8);
 let eightBall = '';
 
 switch(randomNumber) {
@@ -32,5 +32,5 @@ switch(randomNumber) {
     eightBall = 'Signs point to yes'
     break;
  }
-console.log(`${userName} asked: ${userQuestion}`);
-console.log(`The eightball responded: ${eightBall}`);
+console.log('The user asked: ' + userQuestion);
+console.log('The eightball responded: ' + eightBall);
