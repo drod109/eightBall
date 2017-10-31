@@ -1,2 +1,2 @@
 # eightBall
-Magic EightBall Code
+Magic eightball code
